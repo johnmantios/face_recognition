@@ -1,0 +1,6 @@
+#!/bin/bash
+
+for i in {1..486}
+do
+  wget -r -l1 -A.jpg url?page=$i
+done
